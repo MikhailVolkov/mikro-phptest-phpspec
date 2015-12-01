@@ -7,12 +7,12 @@
       "email": "mvsvolkov@gmail.com"
     }
   ],
-  "autoload":{
-    "psr-4": {
-      "App\\": "src/App"
-    }
-  },
   "require": {
-    "phpspec/phpspec": "2.*"
+    "phpspec/phpspec": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
   }
 }
